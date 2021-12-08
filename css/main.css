@@ -1,4 +1,4 @@
-* {
+*{
     box-sizing: border-box;
 }
 
@@ -12,6 +12,7 @@ body {
 
 #header{
     background-color:rgb(126, 11, 126);
+    color: #141313;
 }
 .logoeagle{
     margin:10px auto;
@@ -21,7 +22,7 @@ body {
 }
 h1{
     text-align: center;
-    font-size: 36px;
+    font-size: 2rem;
     font-family: monospace;
 }
 
@@ -34,58 +35,9 @@ h1{
     position: relative;
 }
 
-nav ul li ::before{
-content:"" ;
-height: 3px;
-width: 0%;
-position: absolute;
-background: rgb(68, 16, 211);
-bottom: -12px;
-transition: 0.4 ease-out;
+.nav-link{
+    color: #141313;
 }
-
-nav ul li:hover{
-    height: 100%;
-}
-
-header li {
-    display: inline-block;
-    float: right;
-    width: auto;
-}
-
-header nav{
-    padding: 10px 10px 1rem;
-}
-
-.nav-div{
-    width: 20%;
-    padding: 1rem;
-    border: none;
-    background: none;
-    outline: 0;
-    color: #fff;
-    border-bottom: 1px solid rgb(126, 11, 126);
-}
-
-.nav-div2{
-    background: rgb(126, 11, 126);
-    color: #fff;
-    outline: 0;
-}
-
-.navbar{
-    padding: 10px;
-}
-
-.navtransform{
-    transition: all 1s;
-
-}
-.navtransform :hover{
-    transform: scale(1.5);
-}
-
 /*todo arriba compone header*/
 
 #intro{
@@ -113,9 +65,9 @@ margin-bottom: 16px;
 
 .productos {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    flex-direction: row; 
     align-items: center;
+    justify-content: center
 }
     
 .prenda{
@@ -180,7 +132,7 @@ div h2{
 
 main h2{
     text-align: center;
-    font-size: 32px;
+    font-size: 2rem;
 }
 .centerh2{
     text-align: center;
@@ -189,9 +141,11 @@ main h2{
 
 .ubication{
     text-align: center;
-    font-size: 32px;
     font-family: 'Times New Roman', Times, serif;
+}
 
+div h3{
+    font-size: 3rem;
 }
 
 .container {
