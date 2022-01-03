@@ -1,0 +1,28 @@
+.social{
+    width: 4rem;
+    margin: 1rem;
+    float: right 
+    
+}
+
+.footer h3{
+    display: block;
+    padding-top: 2rem;
+    font-size: 2rem;
+    
+}
+
+//----maps----//
+$redes: (
+    instagram: #bf0dec,
+    facebook: #0d09e4,
+    twtier: #1177ec,
+);
+
+@each $red, $color in $redes {
+    .red-#{$red} {
+        color: $color;
+    }
+}
+
+/*todo arriba footer*/

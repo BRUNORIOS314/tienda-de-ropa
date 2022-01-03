@@ -1,0 +1,23 @@
+
+@import "variables";
+@import "body";
+@import "header";
+@import "main";
+@import "footer";
+@import "mediaqueries";
+
+
+
+//---mixin---//
+
+@mixin size ($alto,$ancho,$padding) {
+    height: $alto;
+    width: $ancho;
+    padding: $padding;
+}
+
+.box {
+    @include size(10px, 5px, 25px)
+}
+    
+
