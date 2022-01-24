@@ -1,10 +1,12 @@
 *{
     box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 
 body {
-    background: #131212;
-    color: #fff;
+    background: rgb(31, 28, 28);
+    color: rgb(255, 255, 255);
     line-height: 1.6;
     font-family: 'Quicksand', sans-serif;
     padding: 0 1.5em;

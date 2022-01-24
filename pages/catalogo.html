@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <!-- ETIQUETAS SEO -->
-      <meta name="description" content="tienda de ropa">
-      <meta name="keyword" content="comercio, ropa, tienda de ropa, eagle drops, remeras ,buzos ,gorros">
+    <!-- ETIQUETAS SEO -->
+    <meta name="description" content="tienda de ropa">
+    <meta name="keyword" content="comercio, ropa, tienda de ropa, eagle drops, remeras ,buzos ,gorros">
     <link rel="shortcut icon" href="../images/shopping-bag.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/estilo.css">
@@ -14,111 +14,213 @@
     <title>catalogo</title>
 </head>
 <body>
-    <header id="header">
+    <header class="header">
         <img src="../images/eagle.png" alt="" width="100" class="logoeagle">
         <h1>Catalogo</h1>
-        <nav class="navbar navbar-expand-lg">
-            <div class="container-fluid">
-              <a class="nav-link" href="../index.html">Inicio</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="catalogo.html">Catalogo</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="nuestros-locales.html">Nuestros locales</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="nosotros.html">Nosotros</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="mi-cuenta.html">Mi cuenta</a>
-                  </li>
-                </ul>
-                <form class="d-flex">
-                  <input class="form-control me-2" type="buscar" placeholder="buscar" aria-label="buscar">
-                  <button class="btn btn -outline-success" type="submit">Buscar</button>
-                </form>
-              </div>
-            </div>
-          </nav>
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <img src="../images/hamburger.png" alt="20" class="checkbtn">
+            </label>
+            <ul>
+                <li><a class="active" href="../index.html">Inicio</a></li>
+                <li><a href="catalogo.html">Catalogo</a></li>
+                <li><a href="nuestros-locales.html">Nuestros locales</a></li>
+                <li><a href="nosotros.html">Noaotros</a></li>
+                <li><a href="mi-cuenta.html">Mi cuenta</a></li>
+            </ul>
+            </nav>
     </header>
-        <main class="catalogo">
-            <h2>ofertas</h2>
-            <div id="intro">
+        <main>
+            <div class="intro">
                     <h2>Somos el primer local hype de la Argentina, con más de 10 años coleccionando. Como amantes de la cultura proveemos la sabiduría para traerles los mejores productos 100% originales.</h2>
+            </div>
+            <div>
+                <h3 class="centerh2">Algunas de nuestras prendas</h3>
             </div>
             <div> 
                 <h2 class="titulocatalog">Remeras</h2>
                 <div class="productos">
                     <div class="prenda">
-                        <img src="../images/remera-4.jpg" class="img-thumbnail" alt="remera" width="150">
+                        <img src="../images/remera-4.jpg" alt="" width="200">
+                        <p>remera roja</p>
+                        <div class="div-talle">
+                            <button>S</button>
+                            <button>M</button>
+                            <button>L</button>
+                            <button>Xl</button>
+                        </div>
                         <a href="#" class="btn">comprar</a>
                     </div>
                     <div class="prenda">
-                        <img src="../images/remera-5.jpg" class="img-thumbnail" alt="remera" width="150">
+                        <img src="../images/remera-5.jpg" class="img-thumbnail" alt="remera" width="200">
+                        <p>remera verde</p>
+                        <div class="div-talle">
+                            <button>S</button>
+                            <button>M</button>
+                            <button>L</button>
+                            <button>Xl</button>
+                        </div>
                         <a href="#" class="btn">comprar</a>
                     </div>
                     <div class="prenda">
-                        <img src="../images/remera-6.jpg" class="img-thumbnail" alt="remera" width="150">
+                        <img src="../images/remera-6.jpg" class="img-thumbnail" alt="remera" width="200">
+                        <p>remera rosa</p>
+                        <div class="div-talle">
+                            <button>S</button>
+                            <button>M</button>
+                            <button>L</button>
+                            <button>Xl</button>
+                        </div>
                         <a href="#" class="btn">comprar</a>
                     </div>
                     <div class="prenda">
-                        <img src="../images/remera-7.jpg" class="img-thumbnail" alt="remera" width="150">
+                        <img src="../images/remera-7.jpg" class="img-thumbnail" alt="remera" width="200">
+                        <p>remera blanca</p>
+                        <div class="div-talle">
+                            <button>S</button>
+                            <button>M</button>
+                            <button>L</button>
+                            <button>Xl</button>
+                        </div>
                         <a href="#" class="btn">comprar</a>
                     </div>
                 </div>
                 <h2 class="titulocatalog">Buzos</h2>
                     <div class="productos">
                         <div class="prenda">
-                            <img src="../images/buzo.1.jpg" class="img-thumbnail" alt="buzo" width="150">
+                            <img src="../images/buzo.1.jpg" class="img-thumbnail" alt="buzo" width="200">
+                            <p>buzo gris</p>                  <div class="div-talle">
+                                <button>S</button>
+                                <button>M</button>
+                                <button>L</button>
+                                <button>Xl</button>
+                            </div>
                             <a href="#" class="btn">comprar</a>
                         </div>
                         <div class="prenda">
-                            <img src="../images/buzo-2.jpg" class="img-thumbnail" alt="buzo" width="150">
+                            <img src="../images/buzo-2.jpg" class="img-thumbnail" alt="buzo" width="200">
+                            <p>buzo negro</p>
+                            <div class="div-talle">
+                                <button>S</button>
+                                <button>M</button>
+                                <button>L</button>
+                                <button>Xl</button>
+                            </div>
                             <a href="#" class="btn">comprar</a>
                         </div>
                         <div class="prenda">
-                            <img src="../images/buzo.3.jpg" class="img-thumbnail" alt="buzo" width="150">
+                            <img src="../images/buzo.3.jpg" class="img-thumbnail" alt="buzo" width="200">
+                            <p>buzo azul</p>
+                            <div class="div-talle">
+                                <button>S</button>
+                                <button>M</button>
+                                <button>L</button>
+                                <button>Xl</button>
+                            </div>
                             <a href="#" class="btn">comprar</a>
                         </div>
                         <div class="prenda">
-                            <img src="../images/buzo-4.jpg" class="img-thumbnail" alt="buzo" width="150">
+                            <img src="../images/buzo-4.jpg" class="img-thumbnail" alt="buzo" width="200">
+                            <p>buzo blanco</p>
+                            <div class="div-talle">
+                                <button>S</button>
+                                <button>M</button>
+                                <button>L</button>
+                                <button>Xl</button>
+                            </div>
                             <a href="#" class="btn">comprar</a>
                         </div>
                     </div>
                     <h2 class="titulocatalog">Gorros</h2>
                     <div class="productos">
                         <div class="prenda">
-                            <img src="../images/gorro-3.jpg" class="img-thumbnail" alt="gorro" width="150">
+                            <img src="../images/gorro-3.jpg" class="img-thumbnail" alt="gorro" width="200">
+                            <p>gorro azul</p>
+                            <div class="div-talle">
+                                <button>S</button>
+                                <button>M</button>
+                                <button>L</button>
+                                <button>Xl</button>
+                            </div>
                             <a href="#" class="btn">comprar</a>
                         </div>
                         <div class="prenda">
-                            <img src="../images/gorro.2.jpg" class="img-thumbnail" alt="gorro"width="150"">
+                            <img src="../images/gorro.2.jpg" class="img-thumbnail" alt="gorro"width="200"">
+                            <p>gorro negro</p>
+                            <div class="div-talle">
+                                <button>S</button>
+                                <button>M</button>
+                                <button>L</button>
+                                <button>Xl</button>
+                            </div>
                             <a href="#" class="btn">comprar</a>
                         </div>
                         <div class="prenda">
-                            <img src="../images/gorro-1.jpg" class="img-thumbnail" alt="gorro" width="150">
+                            <img src="../images/gorro-1.jpg" class="img-thumbnail" alt="gorro" width="200">
+                            <p>gorro verde</p>
+                            <div class="div-talle">
+                                <button>S</button>
+                                <button>M</button>
+                                <button>L</button>
+                                <button>Xl</button>
+                            </div>
                             <a href="#" class="btn">comprar</a>
                         </div>
                             <div class="prenda">
-                                <img src="../images/gorrro-4.jpg" class="img-thumbnail" alt="gorro" width="150">
+                                <img src="../images/gorrro-4.jpg" class="img-thumbnail" alt="gorro" width="200">
+                                <p>gorro blanco</p>
+                                <div class="div-talle">
+                                    <button>S</button>
+                                    <button>M</button>
+                                    <button>L</button>
+                                    <button>Xl</button>
+                                </div>
                                 <a href="#" class="btn">comprar</a>
                             </div>
                     </div>
             </div>
             </main>
-        <footer class="footer">
-            <a href="https://twitter.com/"><img src="../images/twitter.png"width=100 alt="" class="social"></a>
-            <a href="https://www.instagram.com/"><img src="../images/instagram.png"width=100 alt="" class="social"></a>
-            <a href="https://www.facebook.com/"><img src="../images/facebook.png"width=100 alt="" class="social"></a>
-            <div class="footerh3">
-            <h3>Contacto</h3>
-            </div>  
-        </footer>
+            <footer class="footer">
+                <div class="container">
+                  <div class="row">
+                    <div class="footer-col">
+                      <h4>empresa</h4>
+                      <ul>
+                        <li><a href="#">Acerca de nosotros</a></li>
+                        <li><a href="#">Politica de privacidad</a></li>
+                        <li><a href="#">Nuestros clientes</a></li>
+                      </ul>
+                    </div>
+                    <div class="footer-col">
+                      <h4>ayuda</h4>
+                      <ul>
+                        <li><a href="#">Mi cuenta</a></li>
+                        <li><a href="#">Devoluciones</a></li>
+                        <li><a href="#">Estado de compra</a></li>
+                        <li><a href="#">Formas de pago</a></li>
+                      </ul>
+                    </div>
+                    <div class="footer-col">
+                      <h4>Comprar</h4>
+                      <ul>
+                        <li><a href="#">Remeras</a></li>
+                        <li><a href="#">Buzos</a></li>
+                        <li><a href="#">Gorros</a></li>
+                        <li><a href="#">Zapatillas</a></li>
+                      </ul>
+                    </div>
+                    <div class="footer-col">
+                      <h4>Seguinos</h4>
+                      <div class="social-links">
+                        <a href="https://www.facebook.com/"><img src="../images/facebook.png" alt="" width=45></a>
+                        <a href="https://www.instagram.com/"><img src="../images/instagram.png" alt="" width="45"></a>
+                        <a href="https://twitter.com/home"><img src="../images/twitter.png" alt="" width="45"></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+             </footer>
             <!--link js boosptrap-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>

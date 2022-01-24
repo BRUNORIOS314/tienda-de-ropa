@@ -1,10 +1,24 @@
-#intro{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.intro{
     text-align: center;
-    font-size:  22px;
-    height: 160px;
-    margin: 1rem 1rem 1rem 1rem;
-    color: $color-main;
+    font-size:  2rem;
+    margin: 2rem 2rem 2rem 2rem;
+    
+    
+    h2 {
+        font-size: 2rem;
+        display: inline-block;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        margin-left: 3rem;
+        margin-right: 3rem;
+    }
+    
+    h3 {
+        font-size: 2rem;
+        color:$color-main ;
+        
+        
+    }
     
 }
 
@@ -12,58 +26,192 @@
     text-align: center;
     font-size: 1rem;
     border-color: $color-main;
-    margin-bottom: 16px;
-    }
+}
 
-    div h2{
-        text-align: center
-    }
-    
-    .titulocatalog{
-        font-size: 2rem
-    
-    }
-    
-    #representing{
+div h2{
+    align-items: center;
+    justify-content: center;
+}
+
+.titulocatalog{
+    color: $color-main;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    font-size: 3rem 
+}
+
+#representing{
+    justify-content: center;
+    justify-items: center;
+}
+
+.productos {
+        display: flex;
         justify-content: center;
-        justify-items: center;
-    }
-
-    .productos {
-        display: flex;
-        flex-direction: row; 
-        align-items: center;
-        justify-content: center
-    }
-        
-    .prenda{
-        text-align: center;
         margin-top: 2rem;
-        display: flex;
-        flex-direction: column;
-        padding: 1rem;
-        margin: 1rem;
+        margin-bottom: 2rem;
         
     }
     
-    .btn{
-        position: relative;
+.prenda{
         display: inline-block;
-        padding: 15px 30px;
+        margin-left: 3rem;
+        margin-right: 3rem;
+        margin-top: 3rem;
+
+        p{
+            font-size: 12px;
+        }
+
+        button{
+            width: 2rem;
+            border-radius: 10px;
+        }
+
+    }
+    
+.div-talle{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+
+        button{
+            font-weight: 2rem;
+            width: 2rem;
+            margin-left: 3px;
+            margin-right: 3px;
+            background-color: $color-main;
+        }
+
+    }
+    
+.btn-talle{
+        display: flex;
+        flex-direction: row;
+        color: #fff;
+        font-size: 1rem;
+        text-decoration: none;
+        overflow: hidden;
+    }
+
+.prenda p{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+        font-size: 20px;
+    }
+
+.prenda-1{
+        width: 100%;
+        margin-bottom: 2rem;
+        background-color: rgb(17, 14, 14);
+        display: flex;
+        justify-content: flex-end
+    }
+    
+.prenda-1 img{
+        width: 130rem;
+        margin-top: 1rem;
+        margin-left: 1rem;
+        margin-bottom: 1rem;
+        
+    }
+    
+.prenda-1 p{
+        font-size: 30px;
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+        margin-left: 4rem;
+        margin-right: 4rem;
+        
+    }
+    
+.prenda-2 {
+        width: 100%;
+        background-color: rgb(17, 14, 14);
+        display: flex;
+        margin-top: 2rem;
+        margin-bottom: 4rem;
+        
+        p{
+            display: flex;
+            justify-content:flex-start ;
+            text-align: center;
+            font-size: 30px;
+            margin-left: 4rem;
+            margin-right: 4rem;
+            margin-top: 4rem;
+            margin-bottom: 4rem;
+        }
+        
+        img{
+            width: 40rem;
+            margin-top: 1rem;
+            margin-left: 1rem;
+            margin-right: 1rem;
+            margin-bottom: 1rem;
+        }
+    }
+    
+.local3 {
+        display: inline-block;
+        
+    }
+    
+    
+.titleh3{
+        display: flex;
+        color: #6639A6;
+        h3{
+            font-size: 2rem;
+        }
+    }
+    
+.centerh2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: black;
+
+        font-size: 3rem;
+        background-color: $color-main;
+        border-radius: 20px;
+
+    }
+
+.centerh4{
+        margin-top: 2rem;
+        text-align: center;
+        font-size: 2rem;
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+
+.btn{
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 5px 10px;
         color: #fff;
         letter-spacing: 4px;
         font-size: 16px;
         text-decoration: none;
         overflow: hidden;
-        margin-top: 16px;
+        margin-top: 10px;
+        
     }
     
-    .btn:hover{
-        background: #a945c7;
-        box-shadow: 0 0 10px  #a945c7, 0 0 40px #a945c7, 0 0 80px #a945c7;
+.btn:hover{
+        background: #6639A6;
+        box-shadow: 0 0 10px  #6639A6, 0 0 40px #6639A6, 0 0 80px #6639A6;
     }
     
-    .buttomposition{
+.buttomposition{
         margin: 1rem;
         transition: all 1s;
     }
@@ -87,29 +235,41 @@
     }
     
     main h2{
-        text-align: center;
+        font-family:inherit
+    }
+
+.ubication-h3{
+        display: flex;
+        justify-content: center;
         font-size: 2rem;
-        color: rgb(245, 241, 241);
     }
-    .centerh2{
-        text-align: center;
-        font-size: 2rem;       
+
+    main div p {
+        display: flex;
+        font-size: 2rem;
+
     }
-    
-    .ubication{
-        text-align: center;
-        font-family: 'Times New Roman', Times, serif;
-    }
-    
-    div h3{
-        font-size: 3rem;
-    }
-    
-    .container {
+.ubication{
+        margin-top: 3rem;
+        margin-bottom: 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        border-radius: 33px;
+
+        }
+
+.container {
+        margin: 4rem;
         max-width: 1170px;
         margin-left: auto;
         margin-right: auto;
         padding: 1.5em;
+
+    h3 {
+        text-align: center;
+        }
     }
     
     ul {
@@ -120,6 +280,7 @@
     .logo {
         text-align: center;
         font-size: 3em;
+        margin-bottom: 4rem;
     }
     
     .contact-wrapper {
@@ -185,6 +346,6 @@
     .contact-info h4, .contact-info ul, .contact-info p {
         text-align: center;
         margin: 0 0 1rem 0;
-    }
+    }   
     
-    /*todo arriba es contenido main*/
+    

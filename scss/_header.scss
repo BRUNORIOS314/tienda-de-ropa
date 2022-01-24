@@ -1,33 +1,66 @@
-#header{
+.header {
     background-color: $color-main;
-    color: #141313;
+    width: 100%;
 
     .logoeagle{
         margin: auto ;
         display:block;
-        margin-top: 36px;
-    
+
     }
 
-    h1{
-        text-align: center;
+    h1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #141313;
+        margin-top: 1rem;
+        font-family: initial;
         font-size: 3rem;
-        font-family: monospace;
-    }
 
-    .navbar{
+    }
+        }
+
+
+    nav{
+        background: $color-main;
+        height: 80px;
+        width: 100%;
+    }
+    nav ul{
+        float: right;
+        margin-right: 20px;
+    }
+    nav ul li{
+        display: inline-block;
+        line-height: 80px;
+        margin: 0 5px;
+    }
+    nav ul li a{
         text-decoration: none;
-        list-style-type: none;
-        font-weight: inherit;
+        color: rgb(26, 23, 23);
+        font-size: 22px;
+        padding: 7px 13px;
+        border-radius: 3px;
+        text-transform: uppercase;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    li a:hover{
+        background: #3f3f86;
+        transition: .5s;
+    }
+    .checkbtn{
+        width: 3rem;
         font-size: 32px;
-        color: rgb(0, 0, 0); 
-        position: relative;
+        color: rgb(26, 22, 22);
+        float: right;
+        line-height: 80px;
+        margin-right: 40px;
+        cursor: pointer;
+        display: none;
+    }
+    #check{
+        display: none;
     }
 
-    .nav-link{
-        color: #000000;
-    }
-}
 
-/*----todo arriba contenido header-----*/
 
