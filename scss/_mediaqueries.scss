@@ -29,10 +29,8 @@
         flex-direction: column-reverse;
         
         img{
-            align-items: center;
-            justify-content: center;
-            display: flex
-            }
+
+        }
 
         p{
             display: flex;
@@ -74,6 +72,12 @@
         align-items: center;
     }
 
+    .prenda-2{
+        image-resolution: 100%;
+        align-items: center;
+        justify-content: center;
+        display: flex
+    }
 }
 
 @media (max-width: 858px){
@@ -123,11 +127,14 @@
         .prenda-1{
             display: flex;
             justify-content: center;
+            align-items: center;
+
             img{
-                width: 60%;
+                align-items: center;
+                justify-content: center;
             }
         }
-        
+
         .prenda-2{
             display: flex;
             justify-content: center;
